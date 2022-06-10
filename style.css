@@ -119,9 +119,9 @@ html {
 }
 
 #home p {
-    color: rgb(13, 7, 24);
+    color: rgb(2, 20, 36);
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-style: bold;
     font-family: 'Roboto Flex', sans-serif;
 }
@@ -246,7 +246,17 @@ footer {
 
 
 /* Utility classes */
-
+.word{
+    color: rgb(17, 100, 49);
+}
+#services h3{
+    color: rgb(119, 62, 16);
+}
+#services h2{
+    color: rgb(5, 5, 66);
+    text-decoration-style: solid;
+    font-style: oblique;
+}
 .h-primary {
     font-size: 2.8rem;
     padding: 12px;
@@ -285,7 +295,7 @@ footer {
     padding: 0.5rem;
     border-radius: 10px;
     display: block;
-    margin: 10px auto;
+    margin: 10px -6px;
     font: bold;
     cursor: pointer;
     background-color: #bcbbc1;
@@ -300,7 +310,7 @@ footer {
     color: #1839bd;
     padding: 0.5rem;
     border-radius: 10px;
-    margin: 7px auto;
+    margin: 7px -6px;
     font: bold;
     cursor: pointer;
 }
