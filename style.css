@@ -3,11 +3,9 @@
     margin: -5px -15px;
     padding: 6px 12px;
 }
-
-html {
+html{
     scroll-behavior: smooth;
 }
-
 /* css variable */
 :root {
     --navbar-height: 59px
@@ -21,10 +19,10 @@ html {
 }
 
 #logo img {
-    height: 43px;
-    width: 298px;
+    height: 50px;
+    width: 49px;
     border-radius: 525px;
-    padding: 8px 3px;
+    padding: 1px 3px;
 }
 
 #navbar {
@@ -45,7 +43,7 @@ html {
 
 #navbar::before {
     content: "";
-    background-color: rgba(99, 98, 98, 0.747);
+    background-color: rgba(14, 13, 13, 0.747);
     position: absolute;
     top: 0px;
     left: 0px;
@@ -88,41 +86,37 @@ html {
     margin-bottom: 76px;
     display: flex;
     flex-direction: column;
-    padding: 30px 146px;
+    padding: 30px 200px;
     justify-content: center;
     align-items: center;
     height: 376px;
-
+    
 }
 
 #home::before {
     content: "";
     /* background-color: rgba(160, 160, 160, 0.747); */
     position: absolute;
-    background: url('https://api.dominos.co.in/prod-olo-api/images/flashBanner/dominos_adaptation_desktop.jpg') no-repeat center center/cover;
+    background: url('image1.jpg') no-repeat center center/cover;
     height: 90%;
     width: 100%;
     z-index: -2;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
-.home-container {
-    width: 100%;
-}
 
 #home h1 {
-    color: rgb(7, 5, 5);
+    color: white;
     text-align: center;
     font-size: 56px;
     font-family: 'Roboto Flex', sans-serif;
-    margin: 20px 2px;
+    margin: 20px 2px ;
 }
 
 #home p {
-    color: rgb(2, 20, 36);
+    color: white;
     text-align: center;
-    font-size: 2rem;
-    font-style: bold;
+    font-size: 1.4rem;
     font-family: 'Roboto Flex', sans-serif;
 }
 
@@ -197,39 +191,34 @@ html {
 /* contact section */
 #contact {
     position: relative;
-    height: 610px;
+    height: 500px;
 }
 
 #contact::before {
     content: "";
     background: url('contact.jpg') no-repeat center center/cover;
     position: absolute;
-    height: 620px;
+    height: 500px;
     width: 100%;
     z-index: -1;
     opacity: 0.7;
 
 }
-
-#contact-box {
+#contact-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 34px;
+    padding-bottom:34px;
 }
-
-#contact-box label {
-    font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
-    font-style: bold;
+#contact-box label{
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: bold;
 }
-
-#contact-box form {
+#contact-box form{
     width: 40%;
 }
-
-#contact-box input,
-#contact-box textarea {
+#contact-box input,#contact-box textarea{
     width: 100%;
     height: 10 px;
     padding: 0.5rem;
@@ -237,26 +226,15 @@ html {
     font-size: 0.9rem;
 }
 
-footer {
+footer{
     background-color: black;
     color: white;
     padding: 2px 40px;
-    margin-top: 10px;
 }
 
 
 /* Utility classes */
-.word{
-    color: rgb(17, 100, 49);
-}
-#services h3{
-    color: rgb(119, 62, 16);
-}
-#services h2{
-    color: rgb(5, 5, 66);
-    text-decoration-style: solid;
-    font-style: oblique;
-}
+
 .h-primary {
     font-size: 2.8rem;
     padding: 12px;
@@ -280,37 +258,7 @@ footer {
     cursor: pointer;
     background-color: rgb(182, 255, 255);
 }
-.btn:hover{
-    background-color: aqua;
-    color: blue;
-}
 
 .center {
     text-align: center;
-}
-
-#contact-box button {
-    font-size: 1rem;
-    width: 100%;
-    padding: 0.5rem;
-    border-radius: 10px;
-    display: block;
-    margin: 10px -6px;
-    font: bold;
-    cursor: pointer;
-    background-color: #bcbbc1;
-    color: #1839bd;
-}
-
-#contact-box .Reset input {
-    font-size: 1rem;
-    width: 100%;
-    display: block;
-    background-color: #bcbbc1;
-    color: #1839bd;
-    padding: 0.5rem;
-    border-radius: 10px;
-    margin: 7px -6px;
-    font: bold;
-    cursor: pointer;
 }

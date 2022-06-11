@@ -5,8 +5,8 @@ padding-top: 0px;
 }
 
 #logo img {
-    height: 33px;
-    width: 258px;
+    height: 38px;
+    width: 38px;
     padding: 0px 0px;
     
 }
@@ -36,14 +36,13 @@ padding-top: 0px;
 }
 
 #home h1 {
-    font-size: 1rem;
+    font-size: 14px;
     margin: 4px 2px;
     padding-top:160px;
 }
 
 #home p {
-    font-size: 0.7rem;
-    font-style: bold;
+    font-size: 0.5rem;;
 }
 
 /* services section */
@@ -93,19 +92,3 @@ margin: 17px 20px;
     padding: 2px 25px;
     font-size: 10px;
   }
-  #contact-box button {
-    font-size: 1rem;
-    width: 100%;
-    padding: 0.3rem;
-    border-radius: 8px;
-    margin: 10px auto;
-   
-}
-
-#contact-box .Reset input {
-    font-size: 1rem;
-    width: 100%;
-    padding: 0.3rem;
-    border-radius: 8px;
-    margin: 7px auto;
-}
